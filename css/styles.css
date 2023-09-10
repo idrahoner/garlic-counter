@@ -1,11 +1,70 @@
+body {
+  font-family: sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
 .container {
   margin: 0 auto;
-  border: 2px solid tomato;
   max-width: 480px;
+  outline: 2px solid tomato;
 }
 
 .garlic-log {
-  height: 50%;
-  width: 100%;
   padding: 15px;
+  border-bottom: 2px solid #999999;
+}
+
+.garlic-card {
+  padding: 8px 14px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.garlic-card:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.garlic-add {
+  background: rgba(20, 255, 213, 0.46);
+}
+
+.garlic-reduce {
+  background: rgba(254, 112, 112, 0.46);
+}
+
+.garlic-date {
+  color: #888585;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.garlic-number {
+  font-size: 32px;
+  background: linear-gradient(90deg, #ff5e5e -1.63%, #3733ff 13.03%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.calculator-container {
+  outline: 2px solid teal;
+  padding: 15px;
+}
+
+.calculator-input {
+  padding: 8px 14px;
+  border-radius: 12px;
+  background: #baccfc;
+
+  color: #212121;
+  text-align: right;
+  font-size: 32px;
 }
