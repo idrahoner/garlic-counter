@@ -1,0 +1,11 @@
+.container {
+  margin: 0 auto;
+  border: 2px solid tomato;
+  max-width: 480px;
+}
+
+.garlic-log {
+  height: 50%;
+  width: 100%;
+  padding: 15px;
+}
